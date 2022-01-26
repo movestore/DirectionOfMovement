@@ -1,8 +1,8 @@
-# Direction of movement
+# Direction Of Movement
 
 MoveApps
 
-Github repository: https://github.com/movestore/Heading_BetweenLocations
+Github repository: https://github.com/movestore/DirectionOfMovement
 
 ## Description
 Calculation of the direction of movement of each segment between consecutive locations.
@@ -16,7 +16,7 @@ A column named _**directionOfMovement**_ will be appended to the dataset that is
 
 A histogram of the directions distribution of all individuals and per individual is automatically created and can be downloaded in the output as a pdf.
 
-*Note*: the attribute **heading** is recorded by many tags and therefore present in many datasets. This value represents the instantaneous heading of the tag when the GPS location was recorded. This value will often not represent the direction of movement nor the position of the animal due to the placement of the tag (e.g. collar) or environmental conditions through which the animal is moving (e.g. bird is blown sideways by strong winds). 
+**Note**: the attribute *heading* is recorded by many tags and therefore present in many datasets. This value represents the instantaneous heading of the tag when the GPS location was recorded. This value will often not represent the direction of movement nor the position of the animal due to the placement of the tag (e.g. collar) or environmental conditions through which the animal is moving (e.g. bird is blown sideways by strong winds). 
 
 ### Input data
 moveStack in Movebank format
