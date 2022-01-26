@@ -16,10 +16,12 @@
   },
   "language": "eng",
   "keywords": [
+    "azimuth",
     "heading",
     "angle",
     "bearing",
-    "direction of travel"
+    "direction of travel",
+    "direction of movement"
   ],
   "people": [
     {
