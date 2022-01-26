@@ -1,8 +1,8 @@
-# Direction of movement
+# Direction Of Movement
 
 MoveApps
 
-Github repository: https://github.com/movestore/Heading_BetweenLocations
+Github repository: https://github.com/movestore/DirectionOfMovement
 
 ## Description
 Calculation of the direction of movement of each segment between consecutive locations.
