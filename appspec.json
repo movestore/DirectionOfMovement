@@ -31,7 +31,10 @@
       },
       {
         "name": "units"
-      }
+      },
+      {
+        "name":"lwgeom"
+      }      
     ]
   },
   "createsArtifacts": true,
