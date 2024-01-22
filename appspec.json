@@ -1,12 +1,36 @@
 {
-  "settings":[],
+  "version": "1.1",
+  "settings":[
+    {
+  "id": "setunits",
+  "name": "Units",
+  "description": "Choose the units the direction of movement should be returned in. Default is radians.",
+  "type": "RADIOBUTTONS",
+  "defaultValue": "rad",
+  "options": [
+    {
+      "value": "rad",
+      "displayText": "Radians (-pi to pi)"
+    },
+    {
+      "value": "degrees",
+      "displayText": "Degrees (-180 to 180)"
+    }]
+  }
+],
   "dependencies": {
     "R": [
       {
-        "name": "move"
+        "name": "move2"
       },
       {
         "name": "ggplot2"
+      },
+      {
+        "name": "sf"
+      },
+      {
+        "name": "units"
       }
     ]
   },
@@ -34,8 +58,5 @@
       "affiliation": "Max-Planck-Institute of Animal Behavior",
       "affiliationRor": "https://ror.org/026stee22"
     }
-  ],
-  "documentation" : {
-    "url": "https://github.com/movestore/DirectionOfMovement/blob/master/README.md"
-  }
+  ]
 }
